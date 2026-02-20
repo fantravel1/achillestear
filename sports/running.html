@@ -19,6 +19,11 @@
   <meta property="og:title" content="Prevent Achilles Tear in Running | AchillesTear.com">
   <meta property="og:description" content="Distance running Achilles prevention. Master load progression and form.">
   <meta property="og:image" content="https://images.unsplash.com/photo-1460955807917-f1df1d1cb0ff?w=1200&h=630&fit=crop">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@achillestear">
+
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,6 +38,73 @@
 
   <!-- Preload -->
   <link rel="preload" as="image" href="https://images.unsplash.com/photo-1460955807917-f1df1d1cb0ff?w=1600&q=80">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://achillestear.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Sports",
+      "item": "https://achillestear.com/#sports"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Running"
+    }
+  ]
+}
+  </script>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What causes Achilles tendinopathy in runners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Running Achilles tendinopathy is almost always an overuse injury caused by training load spikes \u2014 increasing weekly mileage too quickly, adding hills or speedwork without adequate preparation, or returning from a break with pre-injury volume. The tendon fails to adapt when demand outpaces recovery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much mileage increase per week is safe for runners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 10% rule is a starting point: increase weekly mileage by no more than 10% per week. For runners recovering from injury or starting a new training cycle, even 5\u20138% weekly increases may be more appropriate. One rest day per week with no running helps tendons remodel between sessions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I run through Achilles tendinopathy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mild tendinopathy (pain that warms up and doesn't worsen over 24 hours) can often be managed with load modification rather than complete rest. Reduce mileage by 25\u201340%, eliminate hills and speed sessions, and begin eccentric loading protocol. Pain that worsens during runs or doesn't settle within 24 hours requires a longer rest period."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What type of running shoe helps with Achilles issues?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A heel drop of 8\u201312mm (rather than zero-drop shoes) reduces Achilles tendon load during each stride. Stability or neutral shoes with adequate heel cushioning are typically recommended for Achilles-prone runners. Avoid minimalist shoes or sudden transitions to lower-drop footwear without a multi-month adaptation period."
+      }
+    }
+  ]
+}
+  </script>
 </head>
 <body>
 
@@ -46,6 +118,8 @@
       <div class="nav__links" role="menubar">
         <a href="/#prevention" class="nav__link" role="menuitem">Prevention</a>
         <a href="/#sports" class="nav__link" role="menuitem">Sports</a>
+        <a href="/library/" class="nav__link" role="menuitem">Exercise Library</a>
+        <a href="/blog/" class="nav__link" role="menuitem">Blog</a>
         <a href="/#risk-test" class="nav__link" role="menuitem">Risk Test</a>
         <a href="/#program" class="nav__link" role="menuitem">Program</a>
       </div>
@@ -62,9 +136,12 @@
     <button class="nav__mobile-close" id="mobileClose" aria-label="Close menu">&times;</button>
     <a href="/#prevention" class="nav__mobile-link">Prevention</a>
     <a href="/#sports" class="nav__mobile-link">Sports</a>
+    <a href="/library/" class="nav__mobile-link">Exercise Library</a>
+    <a href="/blog/" class="nav__mobile-link">Blog</a>
     <a href="/#risk-test" class="nav__mobile-link">Risk Test</a>
     <a href="/#program" class="nav__mobile-link">Program</a>
-  </div>
+  <nav class="breadcrumb" aria-label="Breadcrumb" style="padding:var(--space-sm) 0;font-size:0.8rem;color:var(--color-mid-gray);"><div class="container"><a href="/" style="color:var(--color-mid-gray);text-decoration:none;">Home</a> <span aria-hidden="true" style="color:var(--color-border);margin:0 0.35rem;">/</span> <a href="/#sports" style="color:var(--color-mid-gray);text-decoration:none;">Sports</a> <span aria-hidden="true" style="color:var(--color-border);margin:0 0.35rem;">/</span> <span aria-current="page">Running</span></div></nav>
+</div>
 
   <!-- HERO -->
   <header class="hero" id="hero">
@@ -358,7 +435,47 @@
   </section>
 
   <!-- DISCLAIMER -->
-  <div class="disclaimer" role="contentinfo">
+  
+  <!-- ============================================================
+       POSITION-SPECIFIC PREVENTION
+       ============================================================ -->
+  <section class="section section--dark" id="positions" aria-labelledby="positionsHeading">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section-label">Position-Specific Prevention</span>
+        <h2 id="positionsHeading">Choose Your Running Position</h2>
+        <p class="subtitle">Each position creates distinct Achilles loading patterns. Get a protocol built specifically for how you play.</p>
+      </div>
+      <div class="scenarios__grid stagger">
+        <a href="/sports/running/road-runner/" class="scenario-card reveal" role="article" style="text-decoration:none;display:block;">
+          <div class="scenario-card__icon" aria-hidden="true">🏃</div>
+          <h3>Road Runner</h3>
+          <p>Pavement accumulation from 5K to marathon — the leading cause of tendinopathy in recreational athletes.</p>
+          <div class="scenario-card__mechanics"><strong>View Protocol →</strong></div>
+        </a>
+        <a href="/sports/running/trail-runner/" class="scenario-card reveal" role="article" style="text-decoration:none;display:block;">
+          <div class="scenario-card__icon" aria-hidden="true">🌲</div>
+          <h3>Trail Runner</h3>
+          <p>Reactive stabilisation from variable terrain — thousands of ankle adjustments per hour.</p>
+          <div class="scenario-card__mechanics"><strong>View Protocol →</strong></div>
+        </a>
+        <a href="/sports/running/track-sprinter/" class="scenario-card reveal" role="article" style="text-decoration:none;display:block;">
+          <div class="scenario-card__icon" aria-hidden="true">⚡</div>
+          <h3>Track Sprinter</h3>
+          <p>Peak forces up to 12× bodyweight per stride — the highest loading in all of running.</p>
+          <div class="scenario-card__mechanics"><strong>View Protocol →</strong></div>
+        </a>
+        <a href="/sports/running/ultra-runner/" class="scenario-card reveal" role="article" style="text-decoration:none;display:block;">
+          <div class="scenario-card__icon" aria-hidden="true">🌄</div>
+          <h3>Ultra Runner</h3>
+          <p>50–200+ miles across 24–48 hours with night fatigue and cumulative terrain demands.</p>
+          <div class="scenario-card__mechanics"><strong>View Protocol →</strong></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+<div class="disclaimer" role="contentinfo">
     <div class="container">
       <p><strong>Disclaimer:</strong> AchillesTear.com provides educational content only. This is not medical advice. Always consult a licensed healthcare professional for pain, injury, or post-surgical rehabilitation.</p>
     </div>

@@ -19,6 +19,11 @@
   <meta property="og:title" content="Prevent Achilles Tear in Tennis | AchillesTear.com">
   <meta property="og:description" content="Tennis-specific Achilles prevention. Master court positioning and explosive pushoff.">
   <meta property="og:image" content="https://images.unsplash.com/photo-1554224311-beee415c15c7?w=1200&h=630&fit=crop">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@achillestear">
+
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,6 +38,65 @@
 
   <!-- Preload hero -->
   <link rel="preload" as="image" href="https://images.unsplash.com/photo-1554224311-beee415c15c7?w=1600&q=80">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://achillestear.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Sports",
+      "item": "https://achillestear.com/#sports"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Tennis"
+    }
+  ]
+}
+  </script>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why does tennis cause Achilles injuries?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tennis requires explosive lunges, hard stops, and pivots on hard court surfaces. The combination of plantar flexion force during the push-off plus the hard court's limited shock absorption creates high Achilles stress. The push-off foot during a forehand groundstroke is particularly vulnerable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do different court surfaces affect Achilles injury risk?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Hard courts (concrete, acrylic) provide the least shock absorption and create the highest peak forces through the Achilles. Clay courts are more forgiving due to surface give. Grass has intermediate characteristics. Players who frequently switch surfaces should progress volume gradually with each transition."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How should tennis players train their Achilles off court?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Off-court work should include eccentric heel drops (3\u00d715 daily), lateral bound training to mimic court movements, and ankle stability work. Weighted calf raises on a step should be added in the 5\u20138 week phase. Always warm up for 8\u201310 minutes before on-court play."
+      }
+    }
+  ]
+}
+  </script>
 </head>
 <body>
 
@@ -46,6 +110,8 @@
       <div class="nav__links" role="menubar">
         <a href="/#prevention" class="nav__link" role="menuitem">Prevention</a>
         <a href="/#sports" class="nav__link" role="menuitem">Sports</a>
+        <a href="/library/" class="nav__link" role="menuitem">Exercise Library</a>
+        <a href="/blog/" class="nav__link" role="menuitem">Blog</a>
         <a href="/#risk-test" class="nav__link" role="menuitem">Risk Test</a>
         <a href="/#program" class="nav__link" role="menuitem">Program</a>
       </div>
@@ -62,9 +128,12 @@
     <button class="nav__mobile-close" id="mobileClose" aria-label="Close menu">&times;</button>
     <a href="/#prevention" class="nav__mobile-link">Prevention</a>
     <a href="/#sports" class="nav__mobile-link">Sports</a>
+    <a href="/library/" class="nav__mobile-link">Exercise Library</a>
+    <a href="/blog/" class="nav__mobile-link">Blog</a>
     <a href="/#risk-test" class="nav__mobile-link">Risk Test</a>
     <a href="/#program" class="nav__mobile-link">Program</a>
-  </div>
+  <nav class="breadcrumb" aria-label="Breadcrumb" style="padding:var(--space-sm) 0;font-size:0.8rem;color:var(--color-mid-gray);"><div class="container"><a href="/" style="color:var(--color-mid-gray);text-decoration:none;">Home</a> <span aria-hidden="true" style="color:var(--color-border);margin:0 0.35rem;">/</span> <a href="/#sports" style="color:var(--color-mid-gray);text-decoration:none;">Sports</a> <span aria-hidden="true" style="color:var(--color-border);margin:0 0.35rem;">/</span> <span aria-current="page">Tennis</span></div></nav>
+</div>
 
   <!-- HERO -->
   <header class="hero" id="hero">
@@ -305,7 +374,41 @@
   </section>
 
   <!-- DISCLAIMER -->
-  <div class="disclaimer" role="contentinfo">
+  
+  <!-- ============================================================
+       POSITION-SPECIFIC PREVENTION
+       ============================================================ -->
+  <section class="section section--dark" id="positions" aria-labelledby="positionsHeading">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section-label">Position-Specific Prevention</span>
+        <h2 id="positionsHeading">Choose Your Tennis Position</h2>
+        <p class="subtitle">Each position creates distinct Achilles loading patterns. Get a protocol built specifically for how you play.</p>
+      </div>
+      <div class="scenarios__grid stagger">
+        <a href="/sports/tennis/baseliner/" class="scenario-card reveal" role="article" style="text-decoration:none;display:block;">
+          <div class="scenario-card__icon" aria-hidden="true">🎾</div>
+          <h3>Baseliner</h3>
+          <p>Hundreds of split-steps per match and extended rally demands — the highest cumulative Achilles load.</p>
+          <div class="scenario-card__mechanics"><strong>View Protocol →</strong></div>
+        </a>
+        <a href="/sports/tennis/serve-volley/" class="scenario-card reveal" role="article" style="text-decoration:none;display:block;">
+          <div class="scenario-card__icon" aria-hidden="true">🎾</div>
+          <h3>Serve &amp; Volley</h3>
+          <p>Maximum serve plantarflexion + immediate sprint to net — the highest single-event Achilles load.</p>
+          <div class="scenario-card__mechanics"><strong>View Protocol →</strong></div>
+        </a>
+        <a href="/sports/tennis/all-court/" class="scenario-card reveal" role="article" style="text-decoration:none;display:block;">
+          <div class="scenario-card__icon" aria-hidden="true">🎾</div>
+          <h3>All-Court</h3>
+          <p>Baseline-to-net transitions and surface variety demand the broadest Achilles preparation.</p>
+          <div class="scenario-card__mechanics"><strong>View Protocol →</strong></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+<div class="disclaimer" role="contentinfo">
     <div class="container">
       <p><strong>Disclaimer:</strong> AchillesTear.com provides educational content only. This is not medical advice. Always consult a licensed healthcare professional for pain, injury, or post-surgical rehabilitation.</p>
     </div>
